@@ -42,7 +42,7 @@ function Sidebar() {
           aria-controls="collapseTwo"
         >
           <i className="fas fa-fw fa-cog"></i>
-          <span>Users</span>
+          <span>List Users</span>
         </Link>
       
       </li>

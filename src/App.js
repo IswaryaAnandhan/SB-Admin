@@ -6,6 +6,8 @@ import Topbar from "./Topbar";
 import Dashboard from "./Dashboard";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import User from "./User";
+import Usercreate from "./Usercreate";
+import Profile from "./Profile";
 
 function App() {
  
@@ -21,6 +23,9 @@ function App() {
          <Route path="/index.html" element={<Dashboard />}></Route>
           <Route path="/dashboard" element={<Dashboard />}></Route>
           <Route path="/user" element={<User />}></Route>
+          <Route path="/create-user" element={<Usercreate />}></Route>
+          <Route path="/profile/:id" element={<Profile />}></Route>
+          <Route path="/create-user/:id" element={<Usercreate />}></Route>
          </Routes>
        
         </div>
