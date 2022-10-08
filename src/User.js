@@ -63,7 +63,7 @@ function User() {
                     <th>Phone No</th>
                     <th>Date of Birth</th>
                     <th>Gender</th>
-                    <th>Action</th>
+                    <th>Action </th>
                   </tr>
                 </thead>
                 <tfoot>
@@ -94,11 +94,14 @@ function User() {
                     <td>{user.dob}</td>
                     <td>{user.gender}</td>
                     <td>
-                      <Link to={`/create-user/${user.id}`} className="btn btn-secondary">
+                      <Link to={`/edit-user/${user.id}`} className="btn btn-secondary">
                         Edit User
                       </Link>
                       <Link to={`/profile/${user.id}`} className="btn btn-warning">
                         Profile
+                      </Link>
+                      <Link to={`/edit-profile/${user.id}`} className="btn btn-primary">
+                      Edit Profile
                       </Link>
                     </td>
               
