@@ -243,7 +243,7 @@ function Topbar() {
             </span>
             <img
               className="img-profile rounded-circle"
-              src="https://cdn4.iconfinder.com/data/icons/users-groups-set-2/64/x-05-2-512.png"
+              src="img/undraw_profile.svg"
             />
           </a>
 

@@ -8,6 +8,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import User from "./User";
 import Usercreate from "./Usercreate";
 import Profile from "./Profile";
+import Edituser from "./Edituser";
 
 function App() {
  
@@ -25,7 +26,7 @@ function App() {
           <Route path="/user" element={<User />}></Route>
           <Route path="/create-user" element={<Usercreate />}></Route>
           <Route path="/profile/:id" element={<Profile />}></Route>
-          <Route path="/edit-user/:id" element={<Usercreate/>}></Route>
+          <Route path="/edit-user/:id" element={<Edituser/>}></Route>
           <Route path="/edit-profile/:id" element={<Usercreate/>}></Route>
          </Routes>
        

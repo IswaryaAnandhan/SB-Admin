@@ -94,12 +94,12 @@ function User() {
                     <td>{user.dob}</td>
                     <td>{user.gender}</td>
                     <td>
-                      <Link to={`/edit-user/${user.id}`} className="btn btn-secondary">
-                        Edit User
-                      </Link>
-                      <Link to={`/profile/${user.id}`} className="btn btn-warning">
+                    <Link to={`/profile/${user.id}`} className="btn btn-warning mr-1 mb-1">
                         Profile
                       </Link>
+                      <Link to={`/edit-user/${user.id}`} className="btn btn-secondary mr-1 mb-1">
+                        Edit
+                      </Link>                    
                       <Link to={`/edit-profile/${user.id}`} className="btn btn-primary">
                       Edit Profile
                       </Link>
