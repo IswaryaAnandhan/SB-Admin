@@ -47,7 +47,7 @@ function User() {
           <div className="card-body">
             <div className="table-responsive">
               <table
-                class="table table-bordered"
+                className="table table-bordered"
                 id="dataTable"
                 width="100%"
                 cellspacing="0"
