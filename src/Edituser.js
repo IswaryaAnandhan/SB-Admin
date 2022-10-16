@@ -99,7 +99,7 @@ function Edituser() {
       </div>
       <div className="col-lg-4">
         <div className="form-group">
-          <Link to={"/user"} className="btn btn-success">Submit</Link>
+        <input type={"submit"} className="btn btn-success" />
         </div>
       </div>
     </div>

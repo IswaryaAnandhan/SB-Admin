@@ -23,9 +23,9 @@ function App() {
          <Route path="/" element={<Dashboard />}></Route>
          <Route path="/index.html" element={<Dashboard />}></Route>
           <Route path="/dashboard" element={<Dashboard />}></Route>
-          <Route path="/user" element={<User />}></Route>
+          <Route path="/user" element={<User/>}></Route>
           <Route path="/create-user" element={<Usercreate />}></Route>
-          <Route path="/profile/:id" element={<Profile />}></Route>
+          <Route path="/profile/:id" element={<Profile/>}></Route>
           <Route path="/edit-user/:id" element={<Edituser/>}></Route>
           <Route path="/edit-profile/:id" element={<Usercreate/>}></Route>
          </Routes>
