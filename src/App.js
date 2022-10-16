@@ -9,13 +9,12 @@ import User from "./User";
 import Usercreate from "./Usercreate";
 import Profile from "./Profile";
 import Edituser from "./Edituser";
-import { useContext } from "react";
-import { UserContext } from "./Usercontext";
+
 import Login from "./Login";
 import PortalLayout from "./PortalLayout";
 
 function App() {
-  const userdata = useContext(UserContext);
+
   return (
     <BrowserRouter>
       <Routes>
