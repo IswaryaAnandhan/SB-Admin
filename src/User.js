@@ -35,7 +35,7 @@ function User() {
       <div className="d-sm-flex align-items-center justify-content-between mb-4">
         <h1 className="h3 mb-0 text-gray-800">Users</h1>
         <Link
-          to={"/create-user"}
+          to={"/portal/create-user"}
           className="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"
         >
           <i className="fas fa-clipboard-list fa-x text-gray-300"></i> Create
@@ -104,13 +104,13 @@ function User() {
                         <td>
                     
                           <Link
-                            to={`/profile/${user.id}`}
+                            to={`/portal/profile/${user.id}`}
                             className="btn btn-warning mr-1 mb-1"
                           >
                             View
                           </Link>
                           <Link
-                            to={`/edit-user/${user.id}`}
+                            to={`/portal/edit-user/${user.id}`}
                             className="btn btn-secondary mr-1 mb-1"
                           >
                             Edit
